@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>İlan Ver - Artylist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>İlan Ver</h2>
+    <form>
+      <label>Ad Soyad *:</label>
+      <input type="text" required>
+
+      <label>Telefon:</label>
+      <input type="tel">
+
+      <label>Web Sitesi:</label>
+      <input type="url">
+
+      <label>Facebook:</label>
+      <input type="url">
+
+      <label>Instagram:</label>
+      <input type="url">
+
+      <label>Pinterest:</label>
+      <input type="url">
+
+      <label>Ürün Hakkında:</label>
+      <textarea></textarea>
+
+      <label>Kategori Seçin *:</label>
+      <select required>
+        <option>Aksesuarlar</option>
+        <option>Doğal Kozmetik</option>
+        <option>El Yapımı Oyuncaklar</option>
+        <option>Ev Dekorasyonu</option>
+        <option>Örgü ve Dikiş</option>
+        <option>Takılar</option>
+      </select>
+
+      <label>Alt Kategori Seçin *:</label>
+      <select required>
+        <option>Miyuki</option>
+        <option>Anahtarlık</option>
+        <option>Boncuk</option>
+        <option>Çanta</option>
+        <option>Deri</option>
+        <option>Hediyelik</option>
+        <option>Keçe</option>
+        <option>Makrome</option>
+        <option>Saç Aksesuarları</option>
+      </select>
+
+      <label>Fotoğraf Yükle (3 adet):</label>
+      <input type="file" multiple accept="image/*">
+
+      <button type="submit">Gönder</button>
+    </form>
+  </div>
+
+</body>
+</html>

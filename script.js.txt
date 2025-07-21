@@ -1,0 +1,9 @@
+function toggleSub(id) {
+  let sub = document.getElementById(id);
+  sub.style.display = (sub.style.display === "block") ? "none" : "block";
+}
+
+function search() {
+  let term = document.getElementById("search").value.toLowerCase();
+  alert("Aranan ürün: " + term);
+}
