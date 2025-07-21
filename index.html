@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Artylist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>Kategoriler</h2>
+      <ul>
+        <li onclick="toggleSub('aksesuar')">Aksesuarlar ▼</li>
+        <ul id="aksesuar" class="sub">
+          <li>Anahtarlık</li>
+          <li>Boncuk</li>
+          <li>Çanta</li>
+          <li>Deri</li>
+          <li>Hediyelik</li>
+          <li>Keçe</li>
+          <li>Makrome</li>
+          <li>Miyuki</li>
+          <li>Saç Aksesuarları</li>
+        </ul>
+
+        <li onclick="toggleSub('kozmetik')">Doğal Kozmetik ▼</li>
+        <ul id="kozmetik" class="sub">
+          <li>Mumlar</li>
+          <li>Sabunlar</li>
+        </ul>
+
+        <li onclick="toggleSub('oyuncak')">El Yapımı Oyuncaklar ▼</li>
+        <ul id="oyuncak" class="sub">
+          <li>Ahşap</li>
+          <li>Amigurumi</li>
+          <li>Kumaş</li>
+        </ul>
+
+        <li onclick="toggleSub('dekor')">Ev Dekorasyonu ▼</li>
+        <ul id="dekor" class="sub">
+          <li>Ahşap</li>
+          <li>Cam</li>
+          <li>Kupa Bardak</li>
+          <li>Makrome</li>
+          <li>Masa Örtüleri</li>
+          <li>Saat</li>
+          <li>Seramik</li>
+          <li>Yastıklar</li>
+        </ul>
+
+        <li onclick="toggleSub('orgu')">Örgü ve Dikiş ▼</li>
+        <ul id="orgu" class="sub">
+          <li>Atkı</li>
+          <li>Bere</li>
+          <li>Eldiven</li>
+          <li>Şal</li>
+          <li>Bebek & Çocuk Kıyafetleri</li>
+        </ul>
+
+        <li onclick="toggleSub('takilar')">Takılar ▼</li>
+        <ul id="takilar" class="sub">
+          <li>Bileklik</li>
+          <li>Kolye</li>
+          <li>Yüzük</li>
+          <li>Küpe</li>
+        </ul>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="topbar">
+        <input type="text" placeholder="Ara..." id="search">
+        <button onclick="search()">Ara</button>
+        <a href="form.html"><button class="ilan-ver">İlan Ver</button></a>
+      </div>
+
+      <h1>Hoş Geldin! 👋</h1>
+      <p>Artylist'e hoş geldin! El emeği ürün yapan sanatçıları burada tanıtın, bulup takip edin.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
